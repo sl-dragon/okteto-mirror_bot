@@ -3,13 +3,13 @@ services:
   rootedcyber:
     build: .
     environment:
-      REDIS_URI: $REDIS_URI
-      REDIS_PASSWORD: $REDIS_PASSWORD
+      REDIS_URI: redis-18492.c299.asia-northeast1-1.gce.cloud.redislabs.com:18492
+      REDIS_PASSWORD: redis-18492.c299.asia-northeast1-1.gce.cloud.redislabs.com:18492
       SESSION: $SESSION
-      API_ID: $API_ID  # defaults to None
-      API_HASH: $API_HASH  # defaults to None
-      MONGO_URI: $MONGO_URI  # defaults to None
-      BOT_TOKEN: $BOT_TOKEN # Not mandatory
-      LOG_CHANNEL: $LOG_CHANNEL # Not mandatory
+      API_ID: 19799891  # defaults to None
+      API_HASH: 9d6c0dcf58b107d4e888448fa3e6cbcd  # defaults to None
+      MONGO_URI: mongodb+srv://ladade:ladade@cluster0.lh2pojk.mongodb.net/?retryWrites=true&w=majority  # defaults to None
+      BOT_TOKEN: 5048670212:AAF7_ob984jqm2AHmGIOS2hcRzHtqWINsC4 # Not mandatory
+      LOG_CHANNEL: -1001439337399 # Not mandatory
       DATABASE_URL: $DATABASE_URL  # defaults to None
-      OKTETO_TOKEN: $OKTETO_TOKEN
+      OKTETO_TOKEN: Dfu8jxLnU5bZgPKaofo5LAazOOGbiGVr2bEGxOUmQhK6yVIx
