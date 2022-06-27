@@ -4,7 +4,7 @@ services:
     build: .
     environment:
       REDIS_URI: redis-18492.c299.asia-northeast1-1.gce.cloud.redislabs.com:18492
-      REDIS_PASSWORD: redis-18492.c299.asia-northeast1-1.gce.cloud.redislabs.com:18492
+      REDIS_PASSWORD: YpPjL3mo5Sbn04NCFhDimHv62IOH2o95
       SESSION: $SESSION
       API_ID: 19799891  # defaults to None
       API_HASH: 9d6c0dcf58b107d4e888448fa3e6cbcd  # defaults to None
